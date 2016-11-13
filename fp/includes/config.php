@@ -28,8 +28,7 @@
     {
         if (empty($_SESSION["id"]))
         {
-            render("index.html");
-            //redirect("index.html");
+            redirect("index.html");
         }
     }
 
